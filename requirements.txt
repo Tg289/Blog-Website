@@ -1,0 +1,4 @@
+# Install latest Django 5.x release (will pick newest 5.x < 6)
+Django>=5.2,<6
+# Optional (Postgres support if you use Postgres)
+psycopg2-binary

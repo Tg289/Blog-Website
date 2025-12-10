@@ -1,0 +1,11 @@
+:root { --max-width: 900px; --accent: #2b6cb0; }
+body{ font-family: Arial, sans-serif; margin:0; padding:0; color:#222;}
+.container{ max-width:var(--max-width); margin:0 auto; padding:20px;}
+.site-header{ background:#f7f7f7; border-bottom:1px solid #e3e3e3; padding:10px 0;}
+.site-header h1{ margin:0; display:inline-block;}
+.site-header nav{ display:inline-block; float:right; }
+.site-header nav a{ margin-left:15px; text-decoration:none; color:var(--accent);}
+.post-list{ list-style:none; padding:0;}
+.post-list li{ padding:10px 0; border-bottom:1px solid #eee;}
+.meta{ color:#666; font-size:0.9em;}
+.site-footer{ background:#fafafa; border-top:1px solid #eee; padding:20px; text-align:center; margin-top:40px;}
